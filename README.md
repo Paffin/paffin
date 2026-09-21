@@ -2,7 +2,7 @@
 
 # Maxim Kiktev
 
-### Head of DevOps · LLM Infrastructure · AI Platform Engineering
+### DevOps Lead · LLM Infrastructure
 
 **I build reliable platforms where Kubernetes, CI/CD and private LLMs work as one production system.**
 
