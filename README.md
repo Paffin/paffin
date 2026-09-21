@@ -1,68 +1,79 @@
 <div align="center">
 
-# Hey there! I'm Maxim 👋
+# Maxim Kiktev
 
-### `> vibe developer_`
+### Head of DevOps · LLM Infrastructure · AI Platform Engineering
 
-[![GitHub followers](https://img.shields.io/github/followers/Paffin?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=bd93f9)](https://github.com/Paffin?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/Paffin?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117&color=ff79c6&affiliations=OWNER)](https://github.com/Paffin?tab=stars)
+**I build reliable platforms where Kubernetes, CI/CD and private LLMs work as one production system.**
 
-</div>
+<p>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/GitLab_CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab CI/CD">
+  <img src="https://img.shields.io/badge/Private_LLMs-111827?style=flat-square" alt="Private LLMs">
+  <img src="https://img.shields.io/badge/MCP-7C3AED?style=flat-square" alt="Model Context Protocol">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+</p>
 
----
-
-### 🛠️ Tech Stack
-
-<div align="center">
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+[Public projects](#selected-public-work) · [What I build](#what-i-build) · [Discuss a project](https://github.com/Paffin/paffin/issues/new)
 
 </div>
 
 ---
 
-### 📊 GitHub Stats
+## About
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Paffin&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=ff79c6&text_color=f8f8f2&include_all_commits=true&count_private=true&cache_seconds=21600" />
-    <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Paffin&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=ff79c6&text_color=f8f8f2&include_all_commits=true&count_private=true&cache_seconds=21600" />
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Paffin&layout=compact&langs_count=7&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=f8f8f2&cache_seconds=21600" />
-    <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Paffin&layout=compact&langs_count=7&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=f8f8f2&cache_seconds=21600" />
-  </picture>
-</div>
+I came to AI from systems administration, production operations and DevOps leadership. That shapes how I build: **reproducibility, isolation, observability, security, cost and recovery come before demo magic**.
 
-<br/>
+My focus is the engineering layer between infrastructure and AI — self-hosted inference, RAG, agent runtimes, MCP integrations, code intelligence and delivery automation. I turn these pieces into systems that a team can deploy, operate and trust.
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Paffin&theme=tokyonight&hide_border=true&background=0d1117&ring=bd93f9&fire=ff79c6&currStreakLabel=bd93f9" />
-    <img src="https://streak-stats.demolab.com/?user=Paffin&theme=tokyonight&hide_border=true&background=0d1117&ring=bd93f9&fire=ff79c6&currStreakLabel=bd93f9" />
-  </picture>
-</div>
+## What I build
+
+- **Production platforms** — Kubernetes and Docker environments, GitLab CI/CD, traffic routing, monitoring, audit, backup and recovery.
+- **Private AI infrastructure** — local model serving, OpenAI-compatible endpoints, GPU capacity planning, long-context workloads and air-gapped deployment.
+- **Agentic engineering systems** — isolated execution sandboxes, tool access, MCP servers, repository intelligence and AI-assisted operations.
+- **Enterprise foundations** — SSO/RBAC, secrets management, traceability, safety controls and operable upgrade paths.
+- **Technical leadership** — architecture, roadmaps and hands-on delivery from an ambiguous business problem to a running production service.
+
+## Selected public work
+
+| Project | What it demonstrates |
+|---|---|
+| **[opsmate](https://github.com/Paffin/opsmate)** | A Go CLI/TUI that connects an AI coding agent to live Kubernetes, Docker, Prometheus and infrastructure files through **30 MCP tools** — with explicit safety controls for write operations. |
+| **[mcp-superset](https://github.com/Paffin/mcp-superset)** | A production-oriented MCP server exposing **128+ Apache Superset tools**, including dashboards, SQL Lab, users, roles, RLS, permission audits and safeguards for destructive actions. |
+| **[Autodocs](https://github.com/Paffin/doc_ai3)** | A fully local code-intelligence and documentation pipeline: Tree-sitter/LSP parsing → semantic graph → structured facts → Ollama-assisted MDX portal, with incremental scans and CI checks. |
+| **[RAG Control Center](https://github.com/Paffin/rag-ui)** | An operator-facing local RAG platform built around Ollama and Qdrant, with document ingestion, source-grounded answers, real-time process telemetry, settings and audit history. |
+| **[Passwarden](https://github.com/Paffin/passwarden)** | A self-hosted Vaultwarden fork extended with database backups, new-device verification, organization features, tags and real-time webhook delivery. |
+| **[Ollama Multi-Agent RAG](https://github.com/Paffin/Ollama-MultiAgent-RAG-OMAR)** | A local multi-agent system combining specialized roles, Ollama, FAISS, document retrieval and tool execution behind a Streamlit control surface. |
+
+## Core toolbox
+
+**Platform & delivery**  
+Kubernetes · Docker · GitLab CI/CD · Linux · NGINX/HAProxy · PostgreSQL · Redis
+
+**AI engineering**  
+Ollama · vLLM · OpenAI-compatible APIs · MCP · RAG · Qdrant/FAISS · agent orchestration
+
+**Security & operations**  
+Keycloak/SSO · RBAC · secrets management · audit logging · ELK/Logstash · Zabbix · backup/restore
+
+**Software engineering**  
+Go · Python · Bash · TypeScript · React · FastAPI
+
+## Current focus
+
+- Private agent platforms with isolated per-task sandboxes and Docker/Kubernetes delivery.
+- Reliable local LLM inference for coding, operations and long-running agent workflows.
+- AI-assisted CI/CD governance, infrastructure diagnostics, code intelligence and technical documentation.
 
 ---
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Paffin&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=bd93f9&line=ff79c6&point=f8f8f2&area=true&area_color=bd93f9" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Paffin&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=bd93f9&line=ff79c6&point=f8f8f2&area=true&area_color=bd93f9" width="95%" />
-  </picture>
-</div>
 
----
+### Need infrastructure that survives production — and AI that can safely operate inside it?
 
-<div align="center">
-  
-  *Building cool stuff, one commit at a time* ✨
+I am open to architecture reviews, technical leadership and hands-on collaboration on DevOps, private AI and agent-platform projects.
+
+**[Discuss a project →](https://github.com/Paffin/paffin/issues/new)**
 
 </div>
