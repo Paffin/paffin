@@ -152,23 +152,6 @@ Six principles decide almost every design choice:
 
 </details>
 
-<details>
-<summary><b>📦&nbsp; Public repositories — for the curious</b></summary>
-<br>
-
-The work above lives in code too. A few public examples:
-
-| Project | What it demonstrates |
-|---|---|
-| **[opsmate](https://github.com/Paffin/opsmate)** | A Go CLI/TUI that connects an AI coding agent to live Kubernetes, Docker, Prometheus and infrastructure files through **30 MCP tools** — with explicit safety controls for write operations. |
-| **[mcp-superset](https://github.com/Paffin/mcp-superset)** | A production-oriented MCP server exposing **128+ Apache Superset tools**, including dashboards, SQL Lab, users, roles, RLS, permission audits and safeguards for destructive actions. |
-| **[Autodocs](https://github.com/Paffin/doc_ai3)** | A fully local code-intelligence and documentation pipeline: Tree-sitter/LSP parsing → semantic graph → structured facts → Ollama-assisted MDX portal, with incremental scans and CI checks. |
-| **[RAG Control Center](https://github.com/Paffin/rag-ui)** | An operator-facing local RAG platform built around Ollama and Qdrant, with document ingestion, source-grounded answers, real-time process telemetry, settings and audit history. |
-| **[Passwarden](https://github.com/Paffin/passwarden)** | A self-hosted Vaultwarden fork extended with database backups, new-device verification, organization features, tags and real-time webhook delivery. |
-| **[Ollama Multi-Agent RAG](https://github.com/Paffin/Ollama-MultiAgent-RAG-OMAR)** | A local multi-agent system combining specialized roles, Ollama, FAISS, document retrieval and tool execution behind a Streamlit control surface. |
-
-</details>
-
 <p align="center"><img src="assets/divider.svg" width="100%" alt=""></p>
 
 <div align="center">
