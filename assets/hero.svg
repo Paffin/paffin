@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Maxim Kiktev — DevOps Lead · LLM Infrastructure</title>
+  <desc id="d">Animated banner: a small infrastructure graph linking Kubernetes, CI/CD, LLM serving, MCP, RAG and observability.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090e1d"/><stop offset=".55" stop-color="#0f1636"/><stop offset="1" stop-color="#1a1046"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="accName" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#7dd3fc"/><stop offset=".5" stop-color="#a5b4fc"/><stop offset="1" stop-color="#e9b6ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.45 0;0.45 0;-0.45 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#fff" fill-opacity=".075"/>
+    </pattern>
+    <clipPath id="card"><rect width="960" height="300" rx="22"/></clipPath>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="46"/></filter>
+    <filter id="soft" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="1.6"/></filter>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="960" height="300" fill="url(#bg)"/>
+    <rect width="960" height="300" fill="url(#dots)"/>
+
+    <circle cx="170" cy="70" r="150" fill="#38bdf8" fill-opacity=".20" filter="url(#blur)">
+      <animate attributeName="cx" values="150;260;150" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="60;110;60" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="820" cy="250" r="170" fill="#a855f7" fill-opacity=".26" filter="url(#blur)">
+      <animate attributeName="cx" values="840;740;840" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="260;200;260" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- infrastructure graph -->
+    <g>
+      <line x1="790" y1="150" x2="692" y2="84" stroke="url(#acc)" stroke-opacity=".38" stroke-width="1.4"/><line x1="790" y1="150" x2="898" y2="92" stroke="url(#acc)" stroke-opacity=".38" stroke-width="1.4"/><line x1="790" y1="150" x2="896" y2="212" stroke="url(#acc)" stroke-opacity=".38" stroke-width="1.4"/><line x1="790" y1="150" x2="790" y2="252" stroke="url(#acc)" stroke-opacity=".38" stroke-width="1.4"/><line x1="790" y1="150" x2="690" y2="204" stroke="url(#acc)" stroke-opacity=".38" stroke-width="1.4"/><line x1="692" y1="84" x2="690" y2="204" stroke="url(#acc)" stroke-opacity=".38" stroke-width="1.4"/><line x1="898" y1="92" x2="896" y2="212" stroke="url(#acc)" stroke-opacity=".38" stroke-width="1.4"/><line x1="790" y1="252" x2="690" y2="204" stroke="url(#acc)" stroke-opacity=".38" stroke-width="1.4"/><line x1="692" y1="84" x2="898" y2="92" stroke="url(#acc)" stroke-opacity=".38" stroke-width="1.4"/>
+      <circle r="3" fill="#fff" filter="url(#soft)"><animateMotion dur="2.6s" begin="0.00s" repeatCount="indefinite" path="M790,150 L692,84"/></circle><circle r="3" fill="#fff" filter="url(#soft)"><animateMotion dur="3.1500000000000004s" begin="0.37s" repeatCount="indefinite" path="M898,92 L790,150"/></circle><circle r="3" fill="#fff" filter="url(#soft)"><animateMotion dur="3.7s" begin="0.74s" repeatCount="indefinite" path="M790,150 L896,212"/></circle><circle r="3" fill="#fff" filter="url(#soft)"><animateMotion dur="4.25s" begin="1.11s" repeatCount="indefinite" path="M790,252 L790,150"/></circle><circle r="3" fill="#fff" filter="url(#soft)"><animateMotion dur="2.6s" begin="1.48s" repeatCount="indefinite" path="M790,150 L690,204"/></circle><circle r="3" fill="#fff" filter="url(#soft)"><animateMotion dur="3.1500000000000004s" begin="1.85s" repeatCount="indefinite" path="M690,204 L692,84"/></circle><circle r="3" fill="#fff" filter="url(#soft)"><animateMotion dur="3.7s" begin="2.22s" repeatCount="indefinite" path="M898,92 L896,212"/></circle><circle r="3" fill="#fff" filter="url(#soft)"><animateMotion dur="4.25s" begin="2.59s" repeatCount="indefinite" path="M690,204 L790,252"/></circle><circle r="3" fill="#fff" filter="url(#soft)"><animateMotion dur="2.6s" begin="2.96s" repeatCount="indefinite" path="M692,84 L898,92"/></circle>
+      
+    <g>
+      <circle cx="790" cy="150" r="17" fill="none" stroke="url(#acc)" stroke-width="1.2">
+        <animate attributeName="r" values="17;32" dur="3.4s" begin="0.00s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".7;0" dur="3.4s" begin="0.00s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="790" cy="150" r="17" fill="#0b1226" stroke="url(#acc)" stroke-width="1.6"/>
+      <circle cx="790" cy="150" r="5" fill="url(#acc)"/>
+      <text x="790" y="184" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#94a3b8" letter-spacing=".5" stroke="#0e1431" stroke-width="4" stroke-linejoin="round" paint-order="stroke">k8s</text>
+    </g>
+    <g>
+      <circle cx="692" cy="84" r="10" fill="none" stroke="url(#acc)" stroke-width="1.2">
+        <animate attributeName="r" values="10;25" dur="3.4s" begin="0.55s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".7;0" dur="3.4s" begin="0.55s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="692" cy="84" r="10" fill="#0b1226" stroke="url(#acc)" stroke-width="1.6"/>
+      <circle cx="692" cy="84" r="3" fill="url(#acc)"/>
+      <text x="692" y="111" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#94a3b8" letter-spacing=".5" stroke="#0e1431" stroke-width="4" stroke-linejoin="round" paint-order="stroke">ci/cd</text>
+    </g>
+    <g>
+      <circle cx="898" cy="92" r="11" fill="none" stroke="url(#acc)" stroke-width="1.2">
+        <animate attributeName="r" values="11;26" dur="3.4s" begin="1.10s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".7;0" dur="3.4s" begin="1.10s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="898" cy="92" r="11" fill="#0b1226" stroke="url(#acc)" stroke-width="1.6"/>
+      <circle cx="898" cy="92" r="3" fill="url(#acc)"/>
+      <text x="898" y="120" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#94a3b8" letter-spacing=".5" stroke="#0e1431" stroke-width="4" stroke-linejoin="round" paint-order="stroke">llm</text>
+    </g>
+    <g>
+      <circle cx="896" cy="212" r="10" fill="none" stroke="url(#acc)" stroke-width="1.2">
+        <animate attributeName="r" values="10;25" dur="3.4s" begin="1.65s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".7;0" dur="3.4s" begin="1.65s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="896" cy="212" r="10" fill="#0b1226" stroke="url(#acc)" stroke-width="1.6"/>
+      <circle cx="896" cy="212" r="3" fill="url(#acc)"/>
+      <text x="896" y="239" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#94a3b8" letter-spacing=".5" stroke="#0e1431" stroke-width="4" stroke-linejoin="round" paint-order="stroke">mcp</text>
+    </g>
+    <g>
+      <circle cx="790" cy="252" r="10" fill="none" stroke="url(#acc)" stroke-width="1.2">
+        <animate attributeName="r" values="10;25" dur="3.4s" begin="2.20s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".7;0" dur="3.4s" begin="2.20s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="790" cy="252" r="10" fill="#0b1226" stroke="url(#acc)" stroke-width="1.6"/>
+      <circle cx="790" cy="252" r="3" fill="url(#acc)"/>
+      <text x="790" y="279" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#94a3b8" letter-spacing=".5" stroke="#0e1431" stroke-width="4" stroke-linejoin="round" paint-order="stroke">rag</text>
+    </g>
+    <g>
+      <circle cx="690" cy="204" r="10" fill="none" stroke="url(#acc)" stroke-width="1.2">
+        <animate attributeName="r" values="10;25" dur="3.4s" begin="2.75s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".7;0" dur="3.4s" begin="2.75s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="690" cy="204" r="10" fill="#0b1226" stroke="url(#acc)" stroke-width="1.6"/>
+      <circle cx="690" cy="204" r="3" fill="url(#acc)"/>
+      <text x="690" y="231" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#94a3b8" letter-spacing=".5" stroke="#0e1431" stroke-width="4" stroke-linejoin="round" paint-order="stroke">obs</text>
+    </g>
+    </g>
+
+    <!-- copy -->
+    <g>
+      <animate attributeName="opacity" from="0" to="1" dur=".9s" fill="freeze"/>
+      <circle cx="68" cy="58" r="4" fill="#34d399">
+        <animate attributeName="opacity" values="1;.25;1" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="82" y="62" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#7c8aa5" letter-spacing="2.4">PLATFORM ENGINEERING × PRIVATE AI</text>
+
+      <text x="62" y="140" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="-1.5" fill="url(#accName)">Maxim Kiktev
+        <animateTransform attributeName="transform" type="translate" values="0 14;0 0" dur=".9s" calcMode="spline" keySplines=".2 .8 .2 1" keyTimes="0;1" fill="freeze"/>
+      </text>
+      <text x="64" y="182" font-family="'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="25" font-weight="500" fill="#e2e8f0">DevOps Lead <tspan fill="#64748b">·</tspan> LLM Infrastructure</text>
+      <rect x="64" y="204" width="72" height="3" rx="1.5" fill="url(#acc)">
+        <animate attributeName="width" values="0;72" dur="1s" begin=".3s" fill="freeze"/>
+      </rect>
+    </g>
+    
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.025;0.3083;0.3333;1" dur="12s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 0;0 0;0 -8;0 8" keyTimes="0;0.025;0.3083;0.3333;1" dur="12s" repeatCount="indefinite"/>
+      <text x="64" y="244" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#cbd5e1"><tspan fill="#38bdf8">› </tspan>Kubernetes, CI/CD and private LLMs as one system.<tspan fill="#38bdf8" fill-opacity="1">▌<animate attributeName="fill-opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/></tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3333;0.3583;0.6417;0.6667;1" dur="12s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0;0 -8;0 8" keyTimes="0;0.3333;0.3583;0.6417;0.6667;1" dur="12s" repeatCount="indefinite"/>
+      <text x="64" y="244" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#cbd5e1"><tspan fill="#38bdf8">› </tspan>Reproducible. Isolated. Observable. Recoverable.<tspan fill="#38bdf8" fill-opacity="1">▌<animate attributeName="fill-opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/></tspan></text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6667;0.6917;0.975;1" dur="12s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 8;0 8;0 0;0 0;0 -8" keyTimes="0;0.6667;0.6917;0.975;1" dur="12s" repeatCount="indefinite"/>
+      <text x="64" y="244" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#cbd5e1"><tspan fill="#38bdf8">› </tspan>From an ambiguous problem to a service you can trust.<tspan fill="#38bdf8" fill-opacity="1">▌<animate attributeName="fill-opacity" values="1;0" dur="1s" calcMode="discrete" repeatCount="indefinite"/></tspan></text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="959" height="299" rx="21.5" fill="none" stroke="url(#acc)" stroke-opacity=".35"/>
+</svg>
